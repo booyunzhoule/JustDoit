@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/sqlite_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/sqlite_toolView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/sqlite_tool_create"
+            style="@style/SQLiteToolItemStyle"
+            android:text="创建" />
+        <TextView
+            android:id="@+id/sqlite_tool_query"
+            style="@style/SQLiteToolItemStyle"
+            android:text="查询" />
+        <TextView
+            android:id="@+id/sqlite_tool_del"
+            style="@style/SQLiteToolItemStyle"
+            android:text="删除" />
+        <TextView
+            android:id="@+id/sqlite_tool_add"
+            style="@style/SQLiteToolItemStyle"
+            android:text="添加" />
+        <TextView
+            android:id="@+id/sqlite_tool_modify"
+            style="@style/SQLiteToolItemStyle"
+            android:text="修改" />
+        <TextView
+            android:id="@+id/sqlite_tool_update"
+            style="@style/SQLiteToolItemStyle"
+            android:text="更新" />
+    </LinearLayout>
+
+</LinearLayout>

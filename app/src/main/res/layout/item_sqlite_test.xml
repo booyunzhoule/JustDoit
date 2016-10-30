@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_sqlite_name"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="ssss"
+        android:textSize="20sp"
+        android:textColor="@color/default_black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <View style="@style/DefaultVerticalDivider"/>
+
+    <TextView
+        android:id="@+id/item_sqlite_sex"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <View style="@style/DefaultVerticalDivider"/>
+
+    <TextView
+        android:id="@+id/item_sqlite_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ssss"
+        android:textSize="14sp"
+        android:layout_weight="1"
+        android:textColor="@color/default_gray"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <View style="@style/DefaultVerticalDivider"/>
+
+    <TextView
+        android:id="@+id/item_sqlite_del"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="删除"
+        android:textSize="14sp"
+        android:textColor="@color/default_white"
+        android:background="@color/default_red"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp" />
+</LinearLayout>
