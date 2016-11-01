@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private void addItem() {
         itemTitleData.add("数据库测试");
+        itemTitleData.add("长图处理测试");
+
     }
 
     @Override
@@ -39,6 +41,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         switch (position){
             case 0: // 数据库测试
                 intent = new Intent(this,SQLiteTestActivity.class);
+                startActivity(intent);
+                break;
+            case 1: //长图处理测试
+                intent = new Intent(this,LongPicActivity.class);
                 startActivity(intent);
                 break;
         }
